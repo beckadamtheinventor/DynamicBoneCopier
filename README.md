@@ -8,8 +8,7 @@ Drag the GameObject containing the Dynamic Bone components you wish to copy into
 
 Drag the GameObject you want to paste the Dynamic Bone components into into the field labeled "target".
 
-Press "build".
-
+Press "copy bones".
 
 
 # Notes
@@ -17,3 +16,10 @@ Press "build".
 This utility will copy Dynamic Bone components from the source tree to GameObjects of the same name.
 
 This is generally useful for cloning dynamic bones between similar avatar armatures.
+
+
+# Changelog
+
+- multiple dynamic bones on a single GameObject should work now
+- added an option to clear dynamic bones from the target
+
